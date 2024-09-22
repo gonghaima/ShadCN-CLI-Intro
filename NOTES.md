@@ -1,0 +1,1 @@
+npx shadcn@latest init --src-dir sidebar-01
