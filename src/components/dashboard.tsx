@@ -34,9 +34,9 @@ export function DashboardComponent() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex">
+    <div className="min-h-screen flex">
       {/* Vertical Navigation Panel */}
-      <nav className="bg-white w-64 min-h-screen flex flex-col shadow-lg">
+      {/* <nav className="bg-white w-64 min-h-screen flex flex-col shadow-lg">
         <div className="p-4">
           <h2 className="text-2xl font-bold text-gray-800">AI Dashboard</h2>
         </div>
@@ -60,7 +60,7 @@ export function DashboardComponent() {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col">
